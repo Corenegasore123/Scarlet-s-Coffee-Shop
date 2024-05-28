@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scarlet's | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="myStyles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="flex items-center justify-between bg-[chocolate] shadow-md fixed top-0 left-0 z-[1000] py-[16px] px-[80px] w-full">
+        <a href="#" class="text-white text-4xl">
+            <i class="fa-solid fa-mug-hot"></i>
+            SCARLET'S
+        </a>  
+
+        <nav class="xl:block hidden">
+            <ul class="flex items-center justify-between list-none">
+                <li class="my-0 mx-[16px] text-lg"><a class="text-white hover:text-white" href="#home" class="active" >Home</a></li>
+                <li class="my-0 mx-[16px] text-lg"><a class="text-gray-300 hover:text-white" href="#about">About</a></li>
+                <li class="my-0 mx-[16px] text-lg"><a class="text-gray-300 hover:text-white" href="#menu">Menu</a></li>
+                <li class="my-0 mx-[16px] text-lg"><a class="text-gray-300 hover:text-white" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="fas fa-bars dropbtn text-white xl:hidden block">
+            <div class="dropdown-content absolute top-[45px] right-[40px] text-gray-800 bg-white min-w-[160px] shadow-md z-[1200] py-7 px-7 hidden">
+                <ul>
+                    <li><a href="#home" class="font-semibold text-[15px] text-gray-800 py-[12px] px-[16px] text-underline-0 block hover:text-[chocolate]">Home</a></li>
+                    <li><a href="#about" class="font-semibold text-[15px] text-gray-800 py-[12px] px-[16px] text-underline-0 block hover:text-[chocolate]">About</a></li>
+                    <li><a href="#menu" class="font-semibold text-[15px] text-gray-800 py-[12px] px-[16px] text-underline-0 block hover:text-[chocolate]">Menu</a></li>
+                    <li><a href="#contact" class="font-semibold text-[15px] text-gray-800 py-[12px] px-[16px] text-underline-0 block hover:text-[chocolate]">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="home min-h-screen flex items-center justify-center" id="home">
+        <div class="text-center p-[16px]">
+            <h1 class="md:text-[80px] text-white text-[5rem]">Sip, Savor, Repeat</h1>
+            <p class="text-[20px] text-gray-300 py-[16px] px-0 md:w-[1120px] w-auto">
+                Welcome to our cozy coffee haven, where each sip bursts with rich, aromatic 
+                flavors crafted to perfection. We believe in savoring every moment, one cup 
+                at a time. Whether you're here to kickstart your day, take a break, or unwind 
+                with friends, our expertly brewed beverages offer the perfect blend of comfort 
+                and delight. Join us and indulge in the ritual that makes every visit special.
+            </p>
+            <a href="#menu"><button class="py-[7px] px-[18px] bg-transparent outline-none border border-gray-400 text-gray-400 text-[22px] hover:bg-[chocolate] transition duration-300 ease-in-out">Learn More</button></a>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h1 class="text-center text-[40px] text-gray-600 p-[16px] pt-[30px]">
+            <i class="fas fa-quote-left text-[chocolate]"></i>
+            About Us
+            <i class="fas fa-quote-right text-[chocolate]"></i>
+        </h1>
+
+        <div class="flex flex-wrap items-center justify-center px-[25px] gap-0">
+            <div class="flex flex-grow flex-shrink flex-basis-[40rem] mx-auto">
+                <img src="images/coffee beans.jpg" alt="" class="w-[700px]">
+            </div>
+
+            <div class="flex flex-col p-[32px]">
+                <h3 class="text-[30px] text-[chocolate]">Read Our Story</h3>
+                <div class="text-[16px] text-gray-600 py-[14px] px-0 sm:w-[500px] md:w-[700px] w-auto">
+                    <p class="pb-[20px]">
+                        Scarlet's, a beloved coffee shop, was founded by <span class="text-[chocolate]">Scarlet</span>, 
+                        a passionate coffee lover and avid reader, who transformed an old bookstore into a cozy café. 
+                        Inspired by the idea that every cup of coffee could spark creativity and bring people together, she 
+                        created a warm, inviting space filled with the aroma of freshly brewed coffee and books. 
+                    </p>
+                    
+                    <p>
+                        Scarlet's quickly became a community haven where writers, artists, 
+                        and dreamers found inspiration, with Scarlet herself often behind 
+                        the counter, sharing her love for coffee and connection. Today, 
+                        Scarlet's stands as a cherished sanctuary where dreams are nurtured 
+                        and creativity thrives.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center">
+            <div class="py-[27px] px-[15px] text-center border border-[chocolate] m-[32px] flex-grow flex-shrink flex-basis[40rem]">
+                <i class="fas fa-users text-[chocolate] text-[2.5rem]"></i>
+                <h3 class="text-gray-600 text-[1.7rem] py-[0.8rem] px-0">10K+</h3>
+                <p class="text-gray-900 py-[1rem] px-0 text-lg">Satisfied Clients</p>
+            </div>
+
+            <div class="py-[27px] px-[15px] text-center border border-[chocolate] m-[32px] flex-grow flex-shrink flex-basis[40rem]">
+                <i class="fas fa-drivers-license text-[chocolate] text-[2.5rem]"></i>
+                <h3 class="text-gray-600 text-[1.7rem] py-[0.8rem] px-0">1K+</h3>
+                <p class="text-gray-900 py-[1rem] px-0 text-lg">Successful Deliveries</p>
+            </div>
+
+            <div class="py-[27px] px-[15px] text-center border border-[chocolate] m-[32px] flex-grow flex-shrink flex-basis[40rem]">
+                <i class="fas fa-award text-[chocolate] text-[2.5rem]"></i>
+                <h3 class="text-gray-600 text-[1.7rem] py-[0.8rem] px-0">12</h3>
+                <p class="text-gray-900 py-[1rem] px-0 text-lg">Awards And Recognitions</p>
+            </div>
+    </section>
+
+
+    <section id="menu" class="flex flex-col">
+        <h1 class="text-center text-[40px] text-gray-600 p-[16px] pt-[30px]">
+            <i class="fas fa-quote-left text-[chocolate]"></i>
+            Our Menu
+            <i class="fas fa-quote-right text-[chocolate]"></i>
+        </h1>
+
+        <div class = "flex flex-wrap md:gap-20 justify-center mb-0 gap-0">
+            <div>
+                <img src="images/iced coffee.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Iced Coffee</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 10$</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/sandwich.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Sandwich</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 10$</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/bubble tea.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Bubble Tea</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 10$</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/burger.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Burger</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 10$</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/cafe au lait.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Cafe au Lait</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 10$</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/waffles.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Waffles</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 10$</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/hot chocolate.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Hot Chocolate</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 30$</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/espresso.jpg" class="w-[300px] h-[200px]" alt="" />
+                <div class = "relative bottom-16 shadow-xl bg-gray-100 max-w-[250px] h-[140px] mr-auto ml-auto p-5 rounded-lg">
+                    <p class = "text-gray-600 font-[600] text-[20px] text-center mb-5">Espresso</p>
+                    <p class = "text-center font-[600] text-[20px] text-[chocolate]">Price: 10$</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="flex flex-col mb-48">
+        <h1 class="text-center text-[40px] text-gray-600 p-[16px] pt-[30px]">
+            <i class="fas fa-quote-left text-[chocolate]"></i>
+            Contact Us
+            <i class="fas fa-quote-right text-[chocolate]"></i>
+        </h1>
+
+        <div class="flex flex-wrap px-7 xl:gap-80 mx-auto gap-0 xl:mb-0 mb-32">
+
+            <div class="flex flex-col gap-16 mt-10">
+                <div class="flex items-center gap-7">
+                    <div class="border border-[chocolate] w-16 h-16 rounded-full">
+                        <img src="images/address.png" alt="" class="relative top-3 left-3 z-[-100]" />
+                    </div>
+                    <div>
+                        <h1 class = "font-bold text-[chocolate]">Address</h1>
+                        <p>123 Main Street,</p>
+                        <p>CityTown, CoffeeLand</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-7">
+                    <div class="border border-[chocolate] w-16 h-16 rounded-full">
+                        <img src="images/phone.png" alt="" class="relative top-4 left-3 z-[-100]" />
+                    </div>
+                    <div>
+                        <h1 class = "font-bold text-[chocolate]">Phone</h1>
+                        <p>+123-456-7890</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-7">
+                    <div class="border border-[chocolate] w-16 h-16 rounded-full">
+                        <img src="images/email.png" alt="" class="relative top-3.5 left-3.5 z-[-100]" />
+                    </div>
+                    <div>
+                        <h1 class = "font-bold text-[chocolate]">Email</h1>
+                        <p>info@scarlet.com</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mt-12">
+                <form action="" class="grid grid-rows-2 grid-cols-2 gap-5 md:w-[700px] h-[100px] w-[300px]">
+                    <input type="text"  placeholder="Your Names" id="full-names" class="border border-[chocolate] rounded-lg outline-none text-sm text-gray-800 pl-4" required />
+                    <input type="email" placeholder="Email" id="email" class="border border-[chocolate] rounded-lg outline-none text-sm text-gray-800 pl-4" required />
+                    <div class="grid grid-cols-1">
+                        <input type="text" placeholder="Subject" id="subject" class="border border-[chocolate] rounded-lg outline-none text-sm text-gray-800 pl-4 pt-2 pb-2 md:w-[700px] w-[300px] mb-5"/>
+                        <textarea  id="message--sent" placeholder="Message"  class="border border-[chocolate] rounded-lg outline-none text-sm text-gray-800 pl-4 pt-2 pb-2 md:w-[700px] w-[300px] min-h-48"></textarea>
+                        <button class="w-[200px] border border-[chocolate] text-[chocolate] font-bold text-sm leading-6 rounded-full py-3 mt-3">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class = "bg-[chocolate] flex gap-[50px] py-20 justify-center items-center 2xl:flex-row flex-col 2xl:gap-[300px]">
+
+        <div class = "flex flex-col gap-5">
+            <div class = "flex items-center gap-2">
+                <img src="" alt=""/>
+                <p class = "text-white font-bold text-4xl">SCARLET'S</p>
+            </div>
+            <div>
+                <p class = "text-gray-200 font-[400] text-[17px]">Copyrights &copy; 2024 SCARLET'S Ltd.</p>
+                <p class = "text-gray-200 font-[400] text-[17px]">All rights reserved</p>
+            </div>
+            <div class = "flex gap-4 items-center">
+                <a href="#"><img src="images/dribble.png" alt="" class = "bg-[chocolate] border border-white p-2 rounded-full"/></a>
+                <a href="#"><img src="images/instagram.png" alt="" class = "bg-[chocolate] border border-white p-2 rounded-full"/></a>
+                <a href="#"><img src="images/twitter.png" alt="" class = "bg-[chocolate] border border-white p-2 rounded-full"/></a>
+                <a href="#"><img src="images/youtube.png" alt="" class = "bg-[chocolate] border border-white p-2 rounded-full"/></a>
+            </div>
+        </div>
+
+
+        <div class = "flex md:flex-row md:gap-[100px] flex-col gap-[60px] px-[50px]">
+            <div>
+                <h3  class = "text-white font-[600] text-[20px] mb-5">Company</h3>
+                <ul>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Home</a></li>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">About Us</a></li>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Services</a></li>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Achievements</a></li>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class = "text-white font-[600] text-[20px] mb-5">Support</h3>
+                <ul>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Help Center</a></li>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Terms of Service</a></li>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Privacy Policy</a></li>
+                    <li class = "mb-2"><a href="#" class = "font-[400] text-[17px] text-gray-300">Status</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class = "text-white font-[600] text-[20px] mb-5">Stay up to date</h3>
+                <form action="" class = "bg-[chocolate] flex items-center w-[360px] rounded-lg border border-white">
+                    <input type="email" placeholder = "Your Email Address" class = "bg-[chocolate] w-80 h-10 outline-none border-none text-white ml-4"  />
+                    <button class = "mr-4"><img src="images/paper plane.png" alt="" /></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

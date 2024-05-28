@@ -1,0 +1,21 @@
+*{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+html{
+    overflow-x: hidden;
+}
+.dropbtn:hover .dropdown-content{
+    display: block;
+}
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/coffee.jpeg);
+    background-size: cover;
+    background-position:top center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 640px) and (min-width: 0px){
+    body{
+        overflow-x: hidden;
+    }
+}
